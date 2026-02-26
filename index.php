@@ -29,7 +29,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
     <header class="header">
         <div class="container">
             <div class="header-main">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <div>
                         <span class="logo-title">ミライ・インサイト</span>
                         <span class="logo-subtitle">日本と世界の今を深く読む</span>
