@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} - ミライ・インサイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <a href="index.html" class="logo">
+                    <div>
+                        <span class="logo-title">ミライ・インサイト</span>
+                        <span class="logo-subtitle">日本と世界の今を深く読む</span>
+                    </div>
+                </a>
+
+                <nav class="desktop-nav">
+                    <a href="#" class="nav-link">テクノロジー</a>
+                    <a href="#" class="nav-link">ビジネス</a>
+                    <a href="#" class="nav-link">キャリア</a>
+                    <a href="#" class="nav-link">ライフスタイル</a>
+                    <a href="#" class="nav-link">文化</a>
+                    <a href="#" class="nav-link">サステナビリティ</a>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="search-btn" aria-label="検索">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                    <button class="subscribe-btn">購読する</button>
+                </div>
+            </div>
+
+            <nav class="mobile-nav">
+                <a href="#" class="nav-link">テクノロジー</a>
+                <a href="#" class="nav-link">ビジネス</a>
+                <a href="#" class="nav-link">キャリア</a>
+                <a href="#" class="nav-link">ライフスタイル</a>
+                <a href="#" class="nav-link">文化</a>
+                <a href="#" class="nav-link">サステナビリティ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Back Button -->
+    <div class="container">
+        <a href="index.html" class="back-button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m12 19-7-7 7-7"></path>
+                <path d="M19 12H5"></path>
+            </svg>
+            <span>ホームに戻る</span>
+        </a>
+    </div>
+
+    <!-- Article Header -->
+    <article class="container">
+        <div class="article-header">
+            <span class="article-header-category">{{CATEGORY}}</span>
+            <h1 class="article-header-title">{{TITLE}}</h1>
+            
+            <div class="article-header-meta">
+                <div class="article-header-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>{{AUTHOR}}</span>
+                </div>
+                <div class="article-header-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>{{DATE}}</span>
+                </div>
+                <div class="article-header-actions">
+                    <button class="article-action-btn" aria-label="共有">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </button>
+                    <button class="article-action-btn" aria-label="保存">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m19 21-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Image -->
+        <img src="{{IMAGE}}" alt="{{TITLE}}" class="article-featured-image">
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <p class="article-lead">{{DESCRIPTION}}</p>
+
+            <h2>背景と現状</h2>
+            <p>
+                日本の社会とビジネス環境は、デジタルトランスフォーメーションの波により大きく変化しています。
+                この変化は、企業の競争力強化だけでなく、私たちの日常生活にも深く影響を与えています。
+            </p>
+
+            <p>
+                特に2026年においては、テクノロジーの進化が加速し、これまでにない新しい可能性が次々と生まれています。
+                企業や個人がこの変化にどう対応するかが、今後の成功を左右する重要な要素となっています。
+            </p>
+
+            <h2>主要なトレンドと影響</h2>
+            <p>
+                最新の調査によると、多くの日本企業がデジタル化を進める中で、以下のような重要なトレンドが見られます：
+            </p>
+
+            <ul>
+                <li>業務プロセスの自動化と効率化</li>
+                <li>データ活用による意思決定の高度化</li>
+                <li>顧客体験の向上とパーソナライゼーション</li>
+                <li>働き方の柔軟化とリモートワークの定着</li>
+                <li>持続可能性への取り組みの強化</li>
+            </ul>
+
+            <p>
+                これらのトレンドは、単なる技術的な変化ではなく、組織文化や働き方、さらには社会全体の価値観にまで影響を及ぼしています。
+            </p>
+
+            <h2>具体的な取り組み事例</h2>
+            <p>
+                多くの先進的な企業では、既に具体的な成果を上げています。例えば、AIを活用したカスタマーサポートにより、
+                対応時間を大幅に短縮しながら、顧客満足度を向上させることに成功しています。
+            </p>
+
+            <p>
+                また、データ分析を通じて、市場のニーズをより正確に把握し、製品開発やマーケティング戦略に活かしています。
+                これにより、競争力を維持しながら、持続的な成長を実現しています。
+            </p>
+
+            <h2>今後の展望</h2>
+            <p>
+                今後は、さらに技術の進化が加速し、新しい可能性が広がっていくことが予想されます。
+                特に、AIやIoT、クラウドコンピューティングなどの技術が融合することで、これまでにない革新的なサービスや
+                ビジネスモデルが生まれる可能性があります。
+            </p>
+
+            <p>
+                同時に、技術の進化に伴う課題、例えばプライバシーの保護やセキュリティの確保、
+                デジタルデバイドの解消なども重要なテーマとなります。これらの課題に適切に対応しながら、
+                技術の恩恵を最大限に活用していくことが求められています。
+            </p>
+
+            <h2>まとめ</h2>
+            <p>
+                変化の速い時代において、最新のトレンドを理解し、適切に対応していくことが重要です。
+                技術の進化は、新しいチャンスをもたらすと同時に、柔軟な思考と継続的な学習を必要とします。
+            </p>
+
+            <p>
+                私たち一人ひとりが、この変化を前向きに捉え、自身のスキルアップやキャリア開発に活かしていくことで、
+                より豊かな未来を創造することができるでしょう。
+            </p>
+        </div>
+
+        <!-- Author Box -->
+        <div class="author-box">
+            <div class="author-info">
+                <div class="author-avatar">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="author-details">
+                    <h3>{{AUTHOR}}</h3>
+                    <p>ミライ・インサイト編集部のシニアライター。{{CATEGORY}}分野を専門に、日本の最新トレンドと未来の可能性について執筆しています。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Articles -->
+        <div class="related-articles" id="relatedArticles">
+            <!-- Populated by JavaScript -->
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3 class="footer-logo">ミライ・インサイト</h3>
+                    <p class="footer-description">
+                        日本と世界の今を深く読む。テクノロジー、ビジネス、ライフスタイル、文化の最前線をお届けします。
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-heading">カテゴリー</h4>
+                    <a href="#" class="footer-link">テクノロジー</a>
+                    <a href="#" class="footer-link">ビジネス</a>
+                    <a href="#" class="footer-link">キャリア</a>
+                    <a href="#" class="footer-link">ライフスタイル</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-heading">会社情報</h4>
+                    <a href="#" class="footer-link">私たちについて</a>
+                    <a href="#" class="footer-link">採用情報</a>
+                    <a href="#" class="footer-link">お問い合わせ</a>
+                    <a href="#" class="footer-link">広告掲載</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-heading">法的情報</h4>
+                    <a href="#" class="footer-link">プライバシーポリシー</a>
+                    <a href="#" class="footer-link">利用規約</a>
+                    <a href="#" class="footer-link">クッキーポリシー</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 ミライ・インサイト. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="article.js"></script>
+</body>
+</html>
